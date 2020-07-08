@@ -3,10 +3,7 @@ class EmailParser
   attr_accessor :name, :csv_emails
   
   def  initialize(emails_parser)
-    @name = name
-  end
-    @email = emails_parser
-  end
+    @n
 end
 
   def parse
