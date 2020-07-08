@@ -1,10 +1,9 @@
 class EmailParser
 
-  attr_accessor :name, :csv_emails
-  
-  def  initialize(emails_parser)
-    @n
-end
+  attr_accessor :emails
+  def  initialize(emails)
+    @email = emails
+  end
 
   def parse
     email_array = @email.split(/[, ]/).uniq
@@ -12,8 +11,7 @@ end
     email_array
   end
 
-end
-      
+end 
       
   
   
