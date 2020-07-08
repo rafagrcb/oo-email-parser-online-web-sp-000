@@ -18,7 +18,7 @@ class Email
     .flatten.uniq
   end
   
-  
+end
       
       
   
