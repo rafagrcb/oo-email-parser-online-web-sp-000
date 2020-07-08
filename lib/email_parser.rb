@@ -5,6 +5,6 @@
 
 class Email
   
-  attr_accessor :emails
+  attr_accessor :name
   
   
