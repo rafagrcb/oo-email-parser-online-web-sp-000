@@ -11,6 +11,7 @@ class Email
     @csv_emails = csv_emails
   end
   
-  
+  def parse
+    
   
   
